@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   background-image: linear-gradient(155deg, #eef2ff, #fff 50%, #fafafa);
+   font-family: 'Arial', sans-serif;
+}
+
+@keyframes moveLeft {
+   0% {
+     opacity: 0;
+     transform: translateX(-50px); /* Start slightly off-screen from the left */
+   }
+   100% {
+     opacity: 1;
+     transform: translateX(0); /* End at the original position */
+   }
+ }
+ 
+ @keyframes moveRight {
+   0% {
+     opacity: 0;
+     transform: translateX(50px); /* Start slightly off-screen from the right */
+   }
+   100% {
+     opacity: 1;
+     transform: translateX(0); /* End at the original position */
+   }
+ }
+ 
+ /* Apply animation classes */
+ .animate-move-left {
+   animation: moveLeft 1s ease-out forwards;
+ }
+ 
+ .animate-move-right {
+   animation: moveRight 1s ease-out forwards;
+ }
+ 
+ /* Move Up Animation */
+@keyframes moveUp {
+   0% {
+     opacity: 0;
+     transform: translateY(50px); /* Start slightly below */
+   }
+   100% {
+     opacity: 1;
+     transform: translateY(0); /* End at the original position */
+   }
+}
+
+/* Apply animation classes */
+.animate-move-left {
+   animation: moveLeft 1s ease-out forwards;
+}
+
+.animate-move-right {
+   animation: moveRight 1s ease-out forwards;
+}
+
+.animate-move-up {
+   animation: moveUp 1s ease-out forwards;
+}

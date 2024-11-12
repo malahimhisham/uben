@@ -18,12 +18,12 @@ const HeroSection = () => {
           }`}
       >
         <img className="h-12 mb-16 mx-auto md:mx-0" src="/u.png" alt="Üben AI Logo" />
-        <h1 className="text-4xl md:text-5xl font-bold required:leading-[2.9rem]">
+        <h1 style={{lineHeight:'69px'}} className="text-4xl md:text-5xl font-bold ">
           The <span className="text-yellow-500">✨magical✨</span> new way to learn German
         </h1>
 
 
-        <p className="text-gray-600 mt-4 text-lg">
+        <p className="text-gray-600 mt-10 text-lg">
           Learn from 200+ lessons from A1 to B2 and practice your new skills online. Üben is your personalized AI language tutor that gets you writing and speaking{' '}
           <span className="font-semibold">better</span> and <span className="font-semibold">faster</span>.
         </p>

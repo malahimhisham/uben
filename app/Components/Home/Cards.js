@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { IoStarSharp } from "react-icons/io5";
 
 const Cards = () => {
@@ -10,7 +10,7 @@ const Cards = () => {
                     {/* Card 1 */}
                     <div
                         style={{ backgroundImage: 'linear-gradient(135deg, #eef2ff, #fff 50%, #fafafa)' }}
-                        className='px-6 py-8 rounded-2xl shadow-lg hover:scale-105 transition-transform ease-in-out transform translate-x-0 opacity-100 animate-[slideIn_1s_ease-out]'>
+                        className='px-6 sm:px-8 md:px-16 py-8 rounded-3xl shadow-lg hover:scale-105 transition-transform ease-in-out transform translate-x-0 opacity-100 animate-[slideIn_1s_ease-out]'>
                         <p className='text-gray-600 text-lg animate-[fadeIn_2s_ease-in-out]'>
                             I downloaded several apps and kept only the best ones. And I think Üben is one of them.
                         </p>
@@ -30,7 +30,7 @@ const Cards = () => {
                     {/* Card 2 */}
                     <div
                         style={{ backgroundImage: 'linear-gradient(135deg, #eef2ff, #fff 50%, #fafafa)' }}
-                        className='px-6 py-8 rounded-2xl shadow-lg hover:scale-105 transition-transform ease-in-out transform translate-x-0 opacity-100 animate-[slideIn_1s_ease-out]'>
+                        className='px-6 sm:px-8 md:px-16 py-8 rounded-3xl shadow-lg hover:scale-105 transition-transform ease-in-out transform translate-x-0 opacity-100 animate-[slideIn_1s_ease-out]'>
                         <p className='text-gray-600 text-lg animate-[fadeIn_2s_ease-in-out]'>
                             I downloaded several apps and kept only the best ones. And I think Üben is one of them.
                         </p>
@@ -50,7 +50,7 @@ const Cards = () => {
                     {/* Card 3 */}
                     <div
                         style={{ backgroundImage: 'linear-gradient(135deg, #eef2ff, #fff 50%, #fafafa)' }}
-                        className='px-6 py-8 rounded-2xl shadow-lg hover:scale-105 transition-transform ease-in-out transform translate-x-0 opacity-100 animate-[slideIn_1s_ease-out]'>
+                        className='px-6 sm:px-8 md:px-16 py-8 rounded-3xl shadow-lg hover:scale-105 transition-transform ease-in-out transform translate-x-0 opacity-100 animate-[slideIn_1s_ease-out]'>
                         <p className='text-gray-600 text-lg animate-[fadeIn_2s_ease-in-out]'>
                             I downloaded several apps and kept only the best ones. And I think Üben is one of them.
                         </p>
@@ -96,7 +96,7 @@ const Cards = () => {
                 </div>
             </div>
 
-            {/* Table Section  */}
+            {/* Table Section */}
             <div className='mt-24 bg-white flex flex-col items-center mb-20 transform translate-x-0 opacity-100 animate-[slideIn_1s_ease-out]'>
                 <h3 className='font-bold text-4xl animate-[fadeIn_2s_ease-in-out]'>We stack up well</h3>
                 <img className='mt-8 animate-[moveLeft_2s_ease-in-out]' src="/table.png" alt="" />
